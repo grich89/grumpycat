@@ -1,0 +1,38 @@
+	.nav {
+		.toggle {
+			float: right;
+			display: block;
+			font-size: 30px;
+			margin-top: 20px;
+			cursor: pointer;
+		}
+		.menu {
+			float: none;
+			display: none;
+			position: absolute;
+			width: 100%;
+			right: 0px;
+			padding: 0px;
+			top: 103px;
+			background: #fff;
+			li {
+				width: 100%;
+				float: none;
+				text-align: center;
+				border-bottom: 1px solid $ltgray;
+				transition: .3s all;
+				&:hover {
+					background: $medgray;
+					a {
+						color: #fff;
+						&:hover {
+							text-shadow: none;
+						}
+					}
+				}
+				&:last-of-type {
+					border-bottom: 5px solid $dkgray;
+				}
+			}
+		}
+	}

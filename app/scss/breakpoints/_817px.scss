@@ -1,0 +1,29 @@
+	#content {
+		.intro {
+			.container {
+				padding: 40px 20px;
+			}
+			.grumpycats {
+				width: 100%;
+				.cat {
+					float: none;
+					margin: 10px auto;
+					&:last-of-type {
+						margin: 10px auto;
+					}
+				}
+			}
+		}
+		.features {
+			.container {
+				padding: 40px 20px;
+				.feature {
+					text-align: center;
+					img {
+						float: none;
+						margin: 0px auto 25px auto;
+					}
+				}
+			}
+		}
+	}

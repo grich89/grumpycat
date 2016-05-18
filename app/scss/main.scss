@@ -1,0 +1,22 @@
+// import mixins
+@import "partials/mixins";
+
+// dekstop styles
+@import "breakpoints/base";
+
+// mobile styles
+@media (max-width: 817px) {
+	@import "breakpoints/817px";
+}
+
+@media (max-width: 768px) {
+	@import "breakpoints/768px";
+}
+
+@media (max-width: 660px) {
+	@import "breakpoints/660px";
+}
+
+@media (max-width: 400px) {
+	@import "breakpoints/400px";
+}
